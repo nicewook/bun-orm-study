@@ -1,6 +1,7 @@
 go 1.19
 
 use (
+	./default-timestamp
 	./query-build
 	./scan-count
 )

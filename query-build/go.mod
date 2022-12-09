@@ -1,6 +1,12 @@
-module github.com/nicewook/bun-orm-study
+module github.com/nicewook/query-build
 
 go 1.19
+
+require (
+	github.com/uptrace/bun v1.1.9
+	github.com/uptrace/bun/dialect/sqlitedialect v1.1.9
+	github.com/uptrace/bun/driver/sqliteshim v1.1.9
+)
 
 require (
 	github.com/google/uuid v1.3.0 // indirect
@@ -10,9 +16,6 @@ require (
 	github.com/mattn/go-sqlite3 v1.14.16 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20220927061507-ef77025ab5aa // indirect
 	github.com/tmthrgd/go-hex v0.0.0-20190904060850-447a3041c3bc // indirect
-	github.com/uptrace/bun v1.1.9 // indirect
-	github.com/uptrace/bun/dialect/sqlitedialect v1.1.9 // indirect
-	github.com/uptrace/bun/driver/sqliteshim v1.1.9 // indirect
 	github.com/vmihailenco/msgpack/v5 v5.3.5 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
 	golang.org/x/mod v0.7.0 // indirect
