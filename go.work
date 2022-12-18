@@ -2,6 +2,7 @@ go 1.19
 
 use (
 	./default-timestamp
+	./compare-timestamp
 	./query-build
 	./scan-count
 )
