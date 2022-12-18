@@ -80,6 +80,8 @@ func main() {
 	}
 
 	fmt.Printf("Asia/Kolkata:%s\n", ctime)
+	// Asia/Kolkata:2022-12-18 07:44:42.468642 +0530 IST
+
 	if _, err := db.NewInsert().
 		Model(&myTime).
 		Exec(context.Background()); err != nil {
@@ -92,7 +94,6 @@ func main() {
 		fmt.Println(err)
 	}
 	printTime(myTime)
-	// Asia/Kolkata:2022-12-18 07:44:42.468642 +0530 IST
 	// timestamp:   2022-12-18 02:09:21.439701 +0000 UTC
 	// timestamptz: 2022-12-18 11:09:21.439701 +0900 KST
 }
